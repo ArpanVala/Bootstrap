@@ -26,10 +26,10 @@ form button:hover,
   font-weight: bold;
 }
 .bannerContent h1 span {
-  color: #0acefe;
-  background: url('../img/underline.png');
-  background-repeat: no-repeat;
-  background-position: bottom;
+  background: #0acefe;
+  background: linear-gradient(to right, #0acefe 0%, #2699fb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .bannerContent ul {
   list-style: none;
@@ -89,4 +89,24 @@ form button:hover,
   margin-bottom: 10px;
   border: 3px solid rgb(239, 239, 239);
   border-radius: 10px;
+}
+.bookClass {
+  background: linear-gradient(45deg, #0acefe, #2699fb);
+  border-radius: 20px;
+  color: white;
+  padding: 80px 20px;
+}
+.bookClass button {
+  font-weight: bold;
+}
+.bookClass h1 {
+  font-weight: bold;
+}
+.bookClass button:hover {
+  color: black;
+  box-shadow: 7px 7px 0px black;
+}
+footer {
+  background-color: #0a2540;
+  color: white;
 }

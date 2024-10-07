@@ -46,4 +46,19 @@
   .optionItem p {
     font-size: 13px;
   }
+  .bookClass h1 {
+    font-size: 26px;
+  }
+  .bookClass p {
+    font-size: 16px;
+  }
+  footer {
+    padding-bottom: 3rem;
+  }
+  footer p {
+    font-size: 15px;
+  }
+  footer img {
+    width: 120px;
+  }
 }
