@@ -1,0 +1,92 @@
+* {
+  font-family: 'inter', sans-serif;
+}
+.b1 {
+  color: #27ae60;
+  border: 1px solid #27ae60;
+}
+.b1:hover {
+  background-color: #27ae60;
+  color: white;
+  border: 1px solid #27ae60;
+}
+.b2,
+form button,
+.hero-btn1 {
+  color: white;
+  background: linear-gradient(45deg, #0acefe, #2699fb);
+}
+.b2:hover,
+form button:hover,
+.hero-btn1:hover {
+  color: white;
+  background: linear-gradient(45deg, #09b7e2, #2184db);
+}
+.bannerContent h1 {
+  font-weight: bold;
+}
+.bannerContent h1 span {
+  color: #0acefe;
+  background: url('../img/underline.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.bannerContent ul {
+  list-style: none;
+}
+.bannerContent li i {
+  color: #09b7e2;
+}
+.hero-bar .col h4 {
+  color: #0acefe;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.hero-btn button {
+  width: 50%;
+}
+.hero-btn2 {
+  border: 1px solid black;
+  transition: 0.4s 0s;
+}
+.hero-btn2:hover {
+  border: 1px solid black;
+  box-shadow: 2px 2px 1px black;
+}
+
+.form-heading {
+  font-weight: bold;
+}
+.highlightSection {
+  background-color: #f7faff;
+}
+.highlightSection h2 {
+  font-weight: bold;
+}
+.highlightItems {
+  border-radius: 15px;
+}
+.highlightItems:hover {
+  box-shadow: 1px 1px 10px rgb(214, 214, 214);
+}
+.highlightItems img {
+  width: 70px;
+  height: 70px;
+}
+.highlightItems h4 {
+  font-size: 16px;
+}
+.highlightItems p {
+  font-size: small;
+}
+.optionHead h1 {
+  font-weight: bold;
+}
+.optionItem img {
+  /* background-color: black; */
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 3px solid rgb(239, 239, 239);
+  border-radius: 10px;
+}
